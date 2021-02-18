@@ -23,6 +23,16 @@ const questions = [
         type: "input",
         message: "Usage information:",
         name: "usage"
+    },
+    {
+        type: "input",
+        message: "Contribution Guidelines:",
+        name: "cont"
+    },
+    {
+        type: "input",
+        message: "Test Instructions:",
+        name: "test"
     }
 ];
 
