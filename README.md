@@ -1,29 +1,29 @@
-# fasdf
+# Oliver's Neato README Maker
 
-  asdfa
+  This is a node.js app that will create a readme.md file for your project
 
   ## Installation Instructions
 
-  fasdfa
+  You must have node.js, inquirer, and fs for this app to work.
 
   ## Usage Info
 
-  fadfa
+  Open the app in your terminal, run "node index", answer the questions, and let it work it's magic!
 
   ## How to Contribute
 
-  fadsf
+  Improve on this app all you want, there's much room for it!
 
   ## Testing Instructions
 
-  fasdf
+  N/A
 
   ## Questions
 
-  Contact me at my GitHub: github.com/asdfa  
-  or by email: fadf
+  Contact me at my GitHub: github.com/acbewley  
+  or by email: acbewley13@gmail.com
 
   ## License
     
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+    [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)]http://creativecommons.org/publicdomain/zero/1.0/
     

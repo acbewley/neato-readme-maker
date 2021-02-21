@@ -3,7 +3,23 @@
 function renderLicenseBadge(license) {
   switch(license) {
     case 'Apache':
-      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"
+      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
+    case 'Creative Commons':
+      return "[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)]";
+    case 'Boost':
+      return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]"
+    case 'Eclipse':
+      return "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)]"
+    case 'GNU':
+      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]"
+    case 'IBM':
+      return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)]"
+    case 'ISC':
+      return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]"
+    case 'MIT':
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]"
+    case 'Perl':
+      return "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)]"
   }
 }
 
@@ -12,7 +28,23 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch(license) {
     case 'Apache':
-      return "(https://opensource.org/licenses/Apache-2.0)"
+      return "https://opensource.org/licenses/Apache-2.0";
+    case 'Creative Commons':
+      return "http://creativecommons.org/publicdomain/zero/1.0/";
+    case 'Boost':
+      return "https://www.boost.org/LICENSE_1_0.txt"
+    case 'Eclipse':
+      return "https://opensource.org/licenses/EPL-1.0"
+    case 'GNU':
+      return "https://www.gnu.org/licenses/gpl-3.0"
+    case 'IBM':
+      return "https://opensource.org/licenses/IPL-1.0"
+    case 'ISC':
+      return "https://opensource.org/licenses/ISC"
+    case 'MIT':
+      return "https://opensource.org/licenses/MIT"
+    case 'Perl':
+      return "https://opensource.org/licenses/Artistic-2.0"
   }
 }
 
