@@ -1,6 +1,7 @@
 const inquirer = require("inquirer")
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
+const Choices = require("inquirer/lib/objects/choices");
 
 // questions for user input
 const questions = [
@@ -35,9 +36,20 @@ const questions = [
         name: "test"
     },
     {
-        type: "input",
-        message: "License:",
-        name: "license"
+        type: "list",
+        message: "Which license would you like?",
+        name: "license",
+        choices: [
+            "Apache",
+            "Creative Commons",
+            "Boost",
+            "Eclipse",
+            "GNU",
+            "IBM",
+            "ISC",
+            "MIT",
+            "Perl"
+        ]
     },
     {
         type: "input",
